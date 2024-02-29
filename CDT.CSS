@@ -1,0 +1,59 @@
+body{
+background-image: url(Pillar.jpg); background-size: cover;
+background-position: center;
+color: darkmagenta;
+
+
+}
+
+
+
+h1{
+  
+  text-align: center;
+    font-family:Algerian;
+   
+ 
+}
+p{
+    color: cyan;
+text-align: right;
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   .glowing-text{
+ animation: glow 1s infinite;
+   }
+ @keyframes glow{
+  0%{
+      color: aliceblue;text-shadow: antiquewhite;
+  }50%{
+color: cyan;text-shadow: cadetblue;
+  }100%{
+      color: cornflowerblue;text-shadow: cyan;
+  }
+
+ }
+ span{
+font-size: larger;
+color: darkviolet;
+text-align: center;
+ }
+div{
+  column-gap: 10px;
+display: flex;
+padding: 10px;
+margin: 10px;
+
+}
+.custom-box{
+  border: 2px solid rgb(138, 132, 212);
+  padding: 10px;
+  width: 140px;
+  height: 60px;
+  background-color:cyan;
+  box-sizing: content-box;
+border-radius: 100px;
+}
+   
+
